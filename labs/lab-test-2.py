@@ -7,5 +7,3 @@ print(Data) # Printing the data variable
 full_mark = 2*10 # Assuming each question is worth 10 marks
 print( " I want 2x10 marks, which is " + str(full_mark) + " full marks \n") # Converting full_mark to string for concatenation
 # Printing the full marks with a message
-
-
