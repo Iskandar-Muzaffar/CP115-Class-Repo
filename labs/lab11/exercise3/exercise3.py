@@ -4,11 +4,10 @@ target_points = int(input())
 total_points = 0
 rounds_played = 0
 
-# Loop until total_points >= target_points
 while total_points < target_points:
-    points = int(input())  # Ask user for points
-    total_points += points  # Add to total
-    rounds_played += 1  # Count the round
+    round_points = int(input())
+    total_points += round_points
+    rounds_played += 1
 
 # Print final results
 print(total_points)
